@@ -6,7 +6,9 @@ public class Main
         String casos [] = c.generarCasos();//se crean los casos
         
         SortCharacterByFrecuency s = new SortCharacterByFrecuency();//se crea la clase donde se van a probar los casos
-        System.out.println("Solucion -----------------------------------");
+        System.out.println("\n\nSolucion -----------------------------------\n\n");
+
+    
         
         for(int i=0; i<100; i++){//se ejecuta cada caso
             String ans = s.ordenarPorFrecuencia(casos[i]);

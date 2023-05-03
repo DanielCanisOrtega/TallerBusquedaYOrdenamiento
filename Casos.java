@@ -20,14 +20,14 @@ public class Casos
                 casos[i] = caso1[j]; 
             }else{
                 if(i<50){// llena caso 2
-                    j=0;
+                    j= (j==25?0:j);
                     casos[i] = caso2[j];
                 }else{
                     if(i<75){//llena caso 3
-                        j=0;
+                        j= (j==25?0:j);
                         casos[i] = caso3[j];
                     }else{//llena caso 4
-                        j=0;
+                        j= (j==25?0:j);
                         casos[i] = caso4[j];
                     }
                 }
